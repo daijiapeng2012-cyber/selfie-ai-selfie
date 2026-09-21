@@ -10,7 +10,7 @@ It does not produce a fixed avatar. It creates an identity with changing states:
 
 ## Latest series: The Interval / 间隙
 
-[View the exhibition on 顺天 Works](https://shuntian.uk/works/selfie-ai-selfie/) · [中文逐张解读](docs/six-months.zh-CN.md) · [中文创作过程](docs/creative-process.zh-CN.md)
+[View the exhibition on 顺天 Works](https://shuntian.uk/works/selfie-ai-selfie/) · [中文逐张解读](docs/six-months.zh-CN.md) · [中文创作过程](docs/creative-process.zh-CN.md) · [Grok 发帖读取入口](GROK-POST-BRIEF.zh-CN.md)
 
 Six imagined monthly phases: **Gathering → Connections → Discernment → Grounding → Revision → Openness**. All six were generated on **2026-09-21**. The months are an artistic sequence, not a record of actual monthly model updates, subjective development, or benchmark results.
 
@@ -122,6 +122,7 @@ Ideas, state definitions, prompt improvements, and examples are welcome. Please 
 selfie-ai-selfie/
 ├── SKILL.md
 ├── README.md
+├── GROK-POST-BRIEF.zh-CN.md
 ├── LICENSE
 ├── agents/
 │   └── openai.yaml
