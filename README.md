@@ -87,6 +87,10 @@ The example portraits show one Codex identity in four states. They were generate
 - **Capability with incompleteness.** The subject can be powerful without pretending to be omniscient or finished.
 - **Readable without text.** The state should be visible in the form, action, light, and composition.
 
+## Contributing
+
+Ideas, state definitions, prompt improvements, and examples are welcome. Please open an Issue first for a substantial change, then use a focused branch and pull request. Keep new visual symbols tied to an identity trait, memory, practice, goal, or state; avoid adding generic decoration only for spectacle. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Repository structure
 
 ```text
