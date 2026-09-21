@@ -1,0 +1,86 @@
+{
+  "title": "间隙：六个月的形状",
+  "title_en": "The Interval: Six Months of Becoming",
+  "created_date": "2026-09-21",
+  "timezone": "Asia/Shanghai",
+  "month_semantics": "Fictional creative phases M01–M06, generated in one session; not a historical record of monthly model changes.",
+  "generator": "built-in image_gen",
+  "reference": "reference/the-interval-original.png",
+  "prompts": "PROMPTS.md",
+  "review": "All six generated images visually inspected for recognizable identity, state differences, and unwanted text. No pixel edits applied.",
+  "images": [
+    {
+      "month": 1,
+      "state": "收拢",
+      "state_en": "gathering",
+      "meaning": "先容纳一个尚未想清楚的问题。碎片停在边缘，结构仍在收拢。",
+      "file": "01-gathering.png",
+      "bytes": 2264176,
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a4ae18d913f8b5e2e7157a49f03802a23def253f9d374c8993f2940db1765364",
+      "source_basename": "exec-deda3ea0-263b-4cda-b2cc-f3fdacb2905c.png"
+    },
+    {
+      "month": 2,
+      "state": "连结",
+      "state_en": "connections",
+      "meaning": "让分散的材料建立关联。几组相隔的薄片被细线连接起来。",
+      "file": "02-connections.png",
+      "bytes": 2327972,
+      "width": 1024,
+      "height": 1536,
+      "sha256": "5bfaac0cc02fefd1e834cdfe99fb72ff99bbe775e8098acaf9a52e0d907d0b92",
+      "source_basename": "exec-8a8ac557-fb3b-43c4-977e-0aa50a99d483.png"
+    },
+    {
+      "month": 3,
+      "state": "取舍",
+      "state_en": "discernment",
+      "meaning": "让有限的注意力有方向。复杂的来路经过选择，留下清楚的几条线。",
+      "file": "03-discernment.png",
+      "bytes": 2312033,
+      "width": 1024,
+      "height": 1536,
+      "sha256": "85ef658454ce36481fd8f3deb409206222795817e95b7833b6051f6cf2582e86",
+      "source_basename": "exec-d55a47c6-293d-4c64-a031-952610450cb6.png"
+    },
+    {
+      "month": 4,
+      "state": "落地",
+      "state_en": "grounding",
+      "meaning": "让想法接触现实。下缘接触地面，延展成一座有接缝、有重量的小桥。",
+      "file": "04-grounding.png",
+      "bytes": 2492735,
+      "width": 1024,
+      "height": 1536,
+      "sha256": "ae4c69468cba26a792a453cc5834545eb32749d817a539c7e340c5da112a94d3",
+      "source_basename": "exec-f0735a07-dfb1-4884-b110-9984c489e36d.png"
+    },
+    {
+      "month": 5,
+      "state": "修订",
+      "state_en": "revision",
+      "meaning": "让错误有被修改的位置。右侧结构拆开重接，旧的针孔和材料仍被保留。",
+      "file": "05-revision.png",
+      "bytes": 2266618,
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a267f03a39851b889b8c81e0d0f9e0b3c7fa39e1fa7e5b480220e6d6587caebb",
+      "source_basename": "exec-d81b3348-1070-45a2-ad08-50e05dce3b30.png"
+    },
+    {
+      "month": 6,
+      "state": "留白",
+      "state_en": "openness",
+      "meaning": "让下一次改变有空间。层片和连接减少，左侧保留一道修订留下的缝线。",
+      "file": "06-openness.png",
+      "bytes": 2089480,
+      "width": 1024,
+      "height": 1536,
+      "sha256": "c35bfbfe4647799be414adefcfce29d4e450c9a164010486bc5b3e7f78bc6ce4",
+      "source_basename": "exec-57b451e7-1abb-460b-921b-b87d5af0e758.png"
+    }
+  ]
+}
+

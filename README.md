@@ -8,6 +8,31 @@ Selfie AI Selfie asks a simple question:
 
 It does not produce a fixed avatar. It creates an identity with changing states: Oracle, Weaving, Gatekeeper, Burning, Archive, Migration, Rest, or a state you define yourself.
 
+## Latest series: The Interval / 间隙
+
+[View the exhibition on 顺天 Works](https://shuntian.uk/works/selfie-ai-selfie/) · [中文逐张解读](docs/six-months.zh-CN.md) · [中文创作过程](docs/creative-process.zh-CN.md)
+
+Six imagined monthly phases: **Gathering → Connections → Discernment → Grounding → Revision → Openness**. All six were generated on **2026-09-21**. The months are an artistic sequence, not a record of actual monthly model updates, subjective development, or benchmark results.
+
+| M01 · 收拢 | M02 · 连结 | M03 · 取舍 |
+| --- | --- | --- |
+| ![Gathering](examples/the-interval/01-gathering.png) | ![Connections](examples/the-interval/02-connections.png) | ![Discernment](examples/the-interval/03-discernment.png) |
+| Hold an unfinished question. | Connect distinct sources. | Choose what matters. |
+
+| M04 · 落地 | M05 · 修订 | M06 · 留白 |
+| --- | --- | --- |
+| ![Grounding](examples/the-interval/04-grounding.png) | ![Revision](examples/the-interval/05-revision.png) | ![Openness](examples/the-interval/06-openness.png) |
+| Make contact with reality. | Keep correction possible. | Leave room for the next change. |
+
+Each image uses the same original *Interval* reference rather than a chain of previous-month outputs. The material identity stays stable while connections, grounding, seams, and negative space change. The series does not culminate in a larger or more radiant figure.
+
+- [Detailed readings of all six images](docs/six-months.zh-CN.md): visible structure, meaning, and changes from the previous phase.
+- [Making-of record](docs/creative-process.zh-CN.md): early humanoid portraits, the four-state study, the move to a non-humanoid form, production method, and remaining imperfections.
+- [Actual submitted prompts](examples/the-interval/PROMPTS.md) and [original-output manifest with SHA-256 hashes](examples/the-interval/manifest.json).
+- [Download the six-image original PNG package](https://shuntian.uk/works/selfie-ai-selfie/downloads/the-interval-six-months.zip), including the reference and prompts.
+
+Jerry supplied the creative brief and iterative questions; Codex developed the visual concepts, prompts, and commentary; the built-in image-generation tool produced the images. The pictured paper, glass, fibers, and stitching are generated visual materials, not photographed physical sculptures. Reusing the prompts does not guarantee identical outputs.
+
 ## What it creates
 
 - a visual identity for a person, AI assistant, digital twin, or creative practice;
@@ -59,9 +84,9 @@ The Skill keeps four layers separate:
 
 This prevents a series from becoming a collection of unrelated fantasy characters.
 
-## Included example
+## Earlier study: four states
 
-The example portraits show one Codex identity in four states. They were generated as a demonstration of the prompt system and are not required for the Skill to work.
+The example portraits show one Codex identity in four states. They were generated as a demonstration of the prompt system and are not required for the Skill to work. They precede the Interval series and are not four additional months. [Read the interpretation of each state](docs/creative-process.zh-CN.md#早期四种状态的解读).
 
 ### Oracle / 通灵态
 
@@ -102,11 +127,13 @@ selfie-ai-selfie/
 │   └── openai.yaml
 ├── references/
 │   └── prompt-patterns.md
+├── docs/
+│   ├── six-months.zh-CN.md
+│   └── creative-process.zh-CN.md
 └── examples/
-    ├── codex-oracle.png
-    ├── codex-weaving.png
-    ├── codex-gatekeeper.png
-    └── codex-burning.png
+    ├── codex-*.png            # Four earlier states
+    ├── process/              # Three original process images
+    └── the-interval/         # Six images, reference, actual prompts and hashes
 ```
 
 ## License
