@@ -1,0 +1,8 @@
+interface:
+  display_name: "Selfie AI Selfie"
+  short_description: "Turn identity and state into a visual self-portrait"
+  brand_color: "#B8834D"
+  default_prompt: "Use $selfie-ai-selfie to create a visual self-portrait from this person's or AI assistant's traits, work, memory, goals, and current state."
+
+policy:
+  allow_implicit_invocation: true
